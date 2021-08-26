@@ -1,0 +1,96 @@
+body{
+    background-color: #5F7285;
+}
+
+h1{
+    font-size: 105px;
+    font-family: 'Varela Round';
+    color: #FFF;
+}
+
+h2{
+    font-size:22px;
+    color: #FFF;
+
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Nunito';
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #829DAD;
+}
+
+a:hover{
+    color: #36B0E0;
+}
+
+header{
+    display: inline-block;
+    display: flex;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: right;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#paragrafo01{
+    display: flex;
+}
+
+#paragrafo01 img {
+    width: 350px;
+    height: 250px;
+}
+
+#paragrafo01 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+
+
+    header{
+        display: block;
+    }
+
+    header img {
+        padding-right: 150px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    img {
+     
+        display: block;
+        margin: 0 auto;
+    
+    }
+
+    #paragrafo01{
+        display: block;
+    }
+
+    section p {
+        text-align: center;
+    }
+
+
+}
+

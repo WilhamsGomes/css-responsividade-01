@@ -1,0 +1,34 @@
+header p {
+    font-style: italic;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.div_imgs{
+    text-align: center;
+}
+
+img{
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 100%;
+        color: aqua;
+    }
+    
+    h1{
+        text-align: center;
+    }
+
+}
